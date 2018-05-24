@@ -1,5 +1,11 @@
 // Initialize Firebase
-var config =
+var config: {
+    apiKey: "AIzaSyD3BeP-u_ia56MHUMawVCHLvz2V4CICMKc",
+    authDomain: "multipong-40f96.firebaseapp.com",
+    databaseURL: "https://multipong-40f96.firebaseio.com",
+    projectId: "multipong-40f96",
+    storageBucket: "multipong-40f96.appspot.com",
+    messagingSenderId: "1051815741574"
     
 };
 firebase.initializeApp(config);
