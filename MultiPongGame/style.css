@@ -1,5 +1,4 @@
 body{
-    background: url(underConstruction.jpg);
     margin: 0;
     padding: 0;
     font-family: Quicksand;
@@ -73,7 +72,7 @@ nav ul li a:focus{
 }
 
 nav ul li a.active{
-    background: #FF7F50;
+    background: #FFDF00;
     color: #fff;
     border-radius: 9px;
 }
@@ -91,7 +90,7 @@ nav ul li a.active2{
 }
 
 nav ul li a.active3{
-    background: #151515;
+    background: #FF7F50;
     color: #fff;
     border-radius: 9px;
 }
