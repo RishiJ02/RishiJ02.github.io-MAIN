@@ -73,7 +73,7 @@ nav ul li a:focus{
 }
 
 nav ul li a.active{
-    background: #FFDF00;
+    background: #FF7F50;
     color: #fff;
     border-radius: 9px;
 }
