@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--
+Creates the title of the website
+-->
+<title>Multi Pong</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Quicksand:500" rel="stylesheet">
+<body style="margin:0px">
+
+<canvas id="myCanvas" width="auto" height="auto" style="border:0px solid #d3d3d3;"></canvas>
+<!--
+Styles the website and makes the background red
+-->
+<style>
+	html, body {
+		overflow: hidden;
+        background: #ff0000;
+	}
+</style>
+<!--
+Adds a navigation bar to navigate between pages
+-->
+<nav>
+    <div class="Title">FEATURED GAMES</div>
+    <a href="#" id="menu-icon"></a>
+    <ul>
+        <li><a class="active" href=".." >HOME</a></li>
+        <li><a class="active1" href="/Blackout/"> BLACKOUT</a></li>
+        <li><a class="active2" href="/Sentinel">SENTINEL</a></li>
+        <li><a class="active3" href="#" onclick="location.reload()">MULTI PONG</a></li>
+    </ul>
+</nav>
+<!--
+Adds Firebase to the website, allows your code from your javasript file(s) to be used
+-->
+<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+<script src="canvas.js"></script>
+
+</body>
+</html>
