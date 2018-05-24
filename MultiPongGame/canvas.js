@@ -1,11 +1,6 @@
 // Initialize Firebase
-var config = {
-    apiKey: "AIzaSyBtLRlcXkrQQTcs-1Qp1Od2rbPoYcwTEHE",
-    authDomain: "sync-test-game.firebaseapp.com",
-    databaseURL: "https://sync-test-game.firebaseio.com",
-    projectId: "sync-test-game",
-    storageBucket: "sync-test-game.appspot.com",
-    messagingSenderId: "825894585819"
+var config =
+    
 };
 firebase.initializeApp(config);
 
